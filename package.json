@@ -1,0 +1,32 @@
+{
+  "name": "githubappstest",
+  "version": "1.0.0",
+  "description": "githubのwebhookイベントに応答するgithub appのサンプル",
+  "main": "index.js",
+  "type": "module",
+  "imports": {
+    "#*": "./*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n-matsuhashi/GitHubAppsTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n-matsuhashi/GitHubAppsTest/issues"
+  },
+  "homepage": "https://github.com/n-matsuhashi/GitHubAppsTest#readme",
+  "dependencies": {
+    "@octokit/webhooks": "^13.9.0",
+    "dotenv": "^16.5.0",
+    "octokit": "^4.1.3"
+  },
+  "devDependencies": {
+    "smee-client": "^3.1.1"
+  }
+}
